@@ -163,8 +163,99 @@
     text-align: center;
     margin-top: 13px;
 }
+
 /* cards img */
-.card-img{
+.card-img {
     margin-top: 10px;
 }
 
+.phone-para {
+    font-size: 35px;
+    line-height: 37px;
+    text-transform: uppercase;
+    color: #404142;
+    font-weight: 700;
+    font-family: "Quicksand";
+}
+
+.rounded float-end {
+    float: right;
+    top: 50px;
+    padding-left: 125px;
+    position: absolute
+}
+
+.col-lg-8 {
+    margin-top: 35px;
+    position: absolute;
+}
+
+.text-md-start {
+    position: absolute;
+    width: 724px;
+    height: 221px;
+    font-size: 22px;
+    line-height: 24px;
+    color: #404142;
+    font-weight: 50;
+    font-family: "Quicksand";
+    top: 1030px;
+}
+
+.rounded mx-auto d-block {}
+
+.img-thumbnail {
+    width: 68px;
+    height: 68px;
+    border-radius: 6px;
+    background-color: #e5e8c4;
+}
+
+.rounded float-start {
+    width: 68px;
+    height: 68px;
+    margin-top: 5px;
+    border-radius: 6px;
+    background-color: #e5e8c4;
+    position: absolute;
+}
+.container-md{
+    font-size: 35px;
+    line-height: 37px;
+    text-transform: uppercase;
+    color: #404142;
+    font-weight: 700;
+    font-family: "Quicksand";
+}
+.container-sm{
+    font-size: 20px;
+    line-height: 37px;
+    text-transform: uppercase;
+    color: #404142;
+    font-weight: 700;
+    
+    font-family: "Quicksand";
+}
+.container-lg{
+    font-size: 20px;
+    line-height: 23px;
+    text-transform: uppercase;
+    color: #404142;
+    font-weight: 700;
+    font-family: "Quicksand";
+}
+.container-fluid{
+overflow-x: hidden;
+overflow-y: hidden;
+position: relative;
+}
+
+.container-md{
+    position: absolute;
+}
+.rounded float-start{
+    position: absolute;
+}
+.background img-fluid mx-auto{
+    position: absolute;
+}
