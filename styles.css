@@ -1,0 +1,170 @@
+/* font family */
+@font-face {
+    font-family: myFirstFont;
+    src: url(/assets/font/00819\ Regular.ttf);
+}
+
+/* nav bar css */
+.navbar-nav li.nav-item a.nav-link {
+    color: #ffffff;
+    font-family: "Quicksand";
+}
+
+.navbar-nav li.nav-item a.nav-link:hover {
+    color: #aab33c;
+}
+
+.navbar-light .navbar-nav button.nav-link {
+    border-radius: 2px;
+    border: none;
+    color: #ffffff;
+    background-color: #aab33c;
+}
+
+.navbar-light .navbar-nav button.nav-link:hover {
+    background-color: #899d2b;
+}
+
+/* page-1 text */
+.quotes {
+    margin-top: 30px;
+}
+
+.quotes .quote-text {
+    font-size: 50px;
+    line-height: 25px;
+    color: #aab33c;
+    font-family: myFirstFont;
+    padding-top: 155px;
+
+}
+
+.quotes .quote-subtext {
+    display: block;
+    font-family: "Quicksand";
+    font-size: 20px;
+    line-height: 10px;
+    color: #ffffff;
+    font-weight: 700;
+    margin-bottom: 20px;
+
+}
+
+/* page-1 button */
+.quotes button {
+    display: block;
+    margin-top: 20px;
+    height: 40px;
+    padding: 10px 12px;
+    background-color: #aab33c;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    color: #ffffff;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    /* add a transition for the hover effect */
+}
+
+.quotes button:hover {
+    background-color: #899d2b;
+    color: black;
+}
+
+.row {
+    --bs-gutter-x: 0;
+}
+
+/* cards section center content */
+.cars-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.passage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.passage span {
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #404142;
+    font-weight: 700;
+    font-family: "Quicksand";
+    text-align: center;
+}
+
+/* cards css */
+.card {
+    opacity: 1;
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+    background-color: rgba(170, 179, 60, 0.3);
+    margin-left: 30px;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.card-card {
+    margin-top: 20px;
+}
+
+/* cards text */
+.card-text1 {
+    margin-top: 10px;
+    font-size: 13px;
+    line-height: 19px;
+    color: #404142;
+    font-weight: 650;
+    font-family: "Quicksand";
+    text-align: center;
+    margin-top: 18px;
+}
+
+.card-text2 {
+    margin-top: 10px;
+    font-size: 13px;
+    line-height: 19px;
+    color: #404142;
+    font-weight: 650;
+    font-family: "Quicksand";
+    text-align: center;
+}
+
+.card-text3 {
+    margin-top: 13px;
+    font-size: 13px;
+    line-height: 19px;
+    color: #404142;
+    font-weight: 650;
+    font-family: "Quicksand";
+    text-align: center;
+}
+
+.card-text4 {
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 19px;
+    color: #404142;
+    font-weight: 650;
+    font-family: "Quicksand";
+    text-align: center;
+    margin-top: 13px;
+}
+/* cards img */
+.card-img{
+    margin-top: 10px;
+}
+
