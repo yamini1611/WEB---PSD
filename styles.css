@@ -111,10 +111,15 @@
     width: 150px;
     height: 150px;
     border-radius: 5px;
-    background-color: rgba(170, 179, 60, 0.3);
+    background-color: rgba(127, 136, 32, 0.3);
     margin-left: 30px;
     padding: 10px;
     margin-right: 10px;
+}
+
+#c1 {
+    background-color: #e5f255;
+    opacity: 2;
 }
 
 .card-card {
@@ -202,7 +207,7 @@
     top: 1030px;
 }
 
-.rounded mx-auto d-block {}
+
 
 .img-thumbnail {
     width: 68px;
@@ -219,7 +224,8 @@
     background-color: #e5e8c4;
     position: absolute;
 }
-.container-md{
+
+.container-md {
     font-size: 35px;
     line-height: 37px;
     text-transform: uppercase;
@@ -227,16 +233,18 @@
     font-weight: 700;
     font-family: "Quicksand";
 }
-.container-sm{
+
+.container-sm {
     font-size: 20px;
     line-height: 37px;
     text-transform: uppercase;
     color: #404142;
     font-weight: 700;
-    
+
     font-family: "Quicksand";
 }
-.container-lg{
+
+.container-lg {
     font-size: 20px;
     line-height: 23px;
     text-transform: uppercase;
@@ -244,18 +252,202 @@
     font-weight: 700;
     font-family: "Quicksand";
 }
-.container-fluid{
-overflow-x: hidden;
-overflow-y: hidden;
-position: relative;
+
+.container-fluid {
+    overflow-x: hidden;
+    overflow-y: hidden;
+    position: relative;
 }
 
-.container-md{
+.container-md {
     position: absolute;
 }
-.rounded float-start{
+
+.rounded float-start {
     position: absolute;
 }
-.background img-fluid mx-auto{
-    position: absolute;
+
+#P2 {
+    font-size: 20px;
+    line-height: 23px;
+    text-transform: uppercase;
+    color: #404142;
+    font-weight: 700;
+    font-family: "Quicksand";
+}
+
+#P1 {
+    font-size: 20px;
+    line-height: 23px;
+    text-transform: uppercase;
+    color: #404142;
+    font-weight: 700;
+    font-family: "Quicksand";
+}
+
+#bh1 {
+    background-color: #d5ea7c;
+}
+
+#im1 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#ha1{
+    font-size: 30px;
+line-height: 37px;
+text-transform: uppercase;
+color: #404142;
+font-weight: 700;
+font-family: "Quicksand";
+}
+#paragraph1{
+    font-size: 20px;
+line-height: 23px;
+text-transform: uppercase;
+color: #404142;
+font-weight: 700;
+font-family: "Quicksand";
+}
+#phone1{
+    margin-bottom: 20px;
+}
+.comp {
+    font-size: 40px;
+    margin-top: 20px;
+    line-height: 46px;
+    color: #404142;
+    font-weight: 700;
+    font-family: "Quicksand";
+}
+
+#con1 {
+    width: 646px;
+    height: 202px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #404142;
+    font-weight: 500;
+    font-family: "Quicksand";
+}
+
+#con2 {
+    width: 646px;
+    height: 202px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #404142;
+    font-weight: 500;
+    font-family: "Quicksand";
+}
+
+#b1 {
+    width: 235px;
+    height: 47px;
+    background-color: #aab33c;
+    margin-left: 300px;
+    margin-top: -100px;
+    margin-bottom: 20px;
+
+}
+
+.btn btn-primary {
+    padding-left: 200px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border-radius: 50px;
+    border: 1px solid rgba(170, 179, 59, 0.3);
+}
+
+th {
+    padding: 18px;
+}
+
+tr,
+td {
+    text-align: left;
+    padding: 18px 10px 18px 10px;
+}
+
+tr:nth-child(odd) {
+    background-color: whitesmoke;
+}
+
+tr:nth-child(even) {
+    background-color: #e0e4aa;
+}
+
+.row {
+    font-size: 11px;
+    line-height: 14px;
+    color: #404142;
+    font-weight: 500;
+    font-family: "Quicksand";
+}
+
+.row1 {
+    font-size: 22px;
+    line-height: 14px;
+    color: #aab33b;
+    font-weight: 700;
+    font-family: "Quicksand";
+}
+
+#head1 {
+    font-size: 36px;
+    line-height: 46px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Quicksand";
+}
+
+#s1 {
+    width: 100px;
+    height: 54px;
+    font-size: 11px;
+    line-height: 14px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Quicksand";
+}
+
+#head2 {
+    font-size: 25px;
+    line-height: 46px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Quicksand";
+}
+
+#s2 {
+    font-size: 16px;
+    line-height: 30px;
+    color: #404142;
+    font-weight: 700;
+    font-family: "Quicksand";
+    text-align: right;
+}
+
+#f1 {
+    background-image: url("/assets/images/bg3.png");
+    font-size: 35px;
+    line-height: 46px;
+    color: #404142;
+    font-weight: 700;
+    font-family: "Quicksand";
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#ov1 {
+    width: 320px;
+    height: 74px;
+    margin-top: 2px;
+    filter: drop-shadow(3.064px 2.571px 5px rgba(136, 133, 38, 0.17));
+    background-color: #fdffe9;
 }
