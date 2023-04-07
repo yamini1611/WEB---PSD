@@ -107,7 +107,7 @@
 
 /* cards css */
 .card {
-    opacity: 1;
+    opacity: 2;
     width: 150px;
     height: 150px;
     border-radius: 5px;
@@ -118,7 +118,7 @@
 }
 
 #c1 {
-    background-color: #e5f255;
+    background-color: #e3e9a6;
     opacity: 2;
 }
 
@@ -286,32 +286,45 @@
 }
 
 #bh1 {
-    background-color: #d5ea7c;
+    background-color: #dbe7a7;
 }
 
 #im1 {
     margin-top: 30px;
     margin-bottom: 30px;
 }
-#ha1{
-    font-size: 30px;
-line-height: 37px;
-text-transform: uppercase;
-color: #404142;
-font-weight: 700;
-font-family: "Quicksand";
+
+#ha1 {
+    font-size: 25px;
+    line-height: 37px;
+    text-transform: uppercase;
+    color: #404142;
+    font-weight: 700;
+    font-family: "Quicksand";
 }
-#paragraph1{
-    font-size: 20px;
-line-height: 23px;
-text-transform: uppercase;
-color: #404142;
-font-weight: 700;
-font-family: "Quicksand";
+
+#paragraph1 {
+    font-size: 22px;
+    line-height: 23px;
+    text-transform: uppercase;
+    color: #404142;
+    font-weight: 700;
+    font-family: "Quicksand";
 }
-#phone1{
+
+#icon1 {
+    height: 90px;
+}
+
+#icon2 {
+    height: 90px;
+    margin-top: 90px;
+}
+
+#phone1 {
     margin-bottom: 20px;
 }
+
 .comp {
     font-size: 40px;
     margin-top: 20px;
@@ -344,7 +357,7 @@ font-family: "Quicksand";
 #b1 {
     width: 235px;
     height: 47px;
-    background-color: #aab33c;
+    background-color: #cbd64e;
     margin-left: 300px;
     margin-top: -100px;
     margin-bottom: 20px;
@@ -391,7 +404,7 @@ tr:nth-child(even) {
 .row1 {
     font-size: 22px;
     line-height: 14px;
-    color: #aab33b;
+    color: #a7b141;
     font-weight: 700;
     font-family: "Quicksand";
 }
@@ -429,6 +442,8 @@ tr:nth-child(even) {
     font-weight: 700;
     font-family: "Quicksand";
     text-align: right;
+    margin-left: 135px;
+
 }
 
 #f1 {
@@ -440,8 +455,8 @@ tr:nth-child(even) {
     font-family: "Quicksand";
     text-align: center;
     margin-top: 30px;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 70px;
+    padding-bottom: 70px;
 }
 
 #ov1 {
@@ -450,4 +465,31 @@ tr:nth-child(even) {
     margin-top: 2px;
     filter: drop-shadow(3.064px 2.571px 5px rgba(136, 133, 38, 0.17));
     background-color: #fdffe9;
+}
+
+#sen1 {
+    font-size: 25px;
+    position: absolute;
+    top: 140px;
+    padding-left: 500PX;
+    line-height: 46px;
+    color: #404142;
+    font-weight: 700;
+    font-family: "Quicksand";
+    text-align: center;
+}
+
+#BU1 {
+    background-color: #a7b141;
+    font-size: 18px;
+    line-height: 100px;
+    text-transform: uppercase;
+    color: #ffffff;
+    WIDTH:200px;
+    height:0px;
+    padding-bottom: 80PX;
+margin-top: 220PX;
+    font-weight: 700;
+    font-family: "Quicksand";
+    text-align: center;
 }
